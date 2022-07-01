@@ -1,6 +1,9 @@
 {
   "name": "dcl-sandy",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.13.1"
+  }
   "description": "My new Decentraland project",
   "scripts": {
     "start": "CI=true dcl start -p ${PORT:=8000}",
